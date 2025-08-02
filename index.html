@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishav Kumar | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Rishav Kumar - Computer Science Student and Developer" />
+    <meta name="author" content="Rishav Kumar" />
+
+    <meta property="og:title" content="Rishav Kumar | Portfolio" />
+    <meta property="og:description" content="Personal portfolio of Rishav Kumar - Computer Science Student and Developer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+  <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  <script type="module" src="/src/main.tsx"></script>
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+      <!-- CSS -->
+      <link rel="stylesheet" href="style.css">
+      
+      <!-- Lucide Icons - Replaced with CDN version -->
+      <script src="https://unpkg.com/lucide@latest"></script>
+    </head>
+  
+    <body>
+    
+
+<canvas id="stars-bg" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0;pointer-events:none;"></canvas>
+
+
+
+      <div id="root">
+        <!-- Header -->
+        <header class="header">
+          <div class="container">
+            <div class="logo">
+              <span class="logo-text-purple">Rishav</span> Kumar
+            </div>
+            
+            <nav class="desktop-nav">
+              <button class="nav-link" data-section="home">Home</button>
+              <button class="nav-link" data-section="about">About</button>
+              <button class="nav-link" data-section="skills">Skills</button>
+              <button class="nav-link" data-section="projects">Projects</button>
+              <button class="nav-link" data-section="contact">Contact</button>
+            </nav>
+            
+            <button class="mobile-menu-button">
+              <i data-lucide="menu"></i>
+            </button>
+          </div>
+          
+          <!-- Mobile menu -->
+          <div class="mobile-menu">
+            <div class="container">
+              <button class="nav-link" data-section="home">Home</button>
+              <button class="nav-link" data-section="about">About</button>
+              <button class="nav-link" data-section="skills">Skills</button>
+              <button class="nav-link" data-section="projects">Projects</button>
+              <button class="nav-link" data-section="contact">Contact</button>
+            </div>
+          </div>
+        </header>
+  
+        <main>
+          <!-- Hero Section -->
+          <section id="home" class="hero">
+            <div class="floating-grid"></div>
+            <div class="bg-glow bg-glow-1"></div>
+            <div class="bg-glow bg-glow-2"></div>
+            
+            <div class="container">
+              <div class="hero-content">
+                <h1 class="fade-up">
+                  <span>Hi, I'm</span>
+                  <span class="tech-gradient glow-text">Rishav Kumar</span>
+                </h1>
+                
+                <h2 class="fade-up delay-1">
+                  I am a <span class="typing-text"></span><span class="typing-cursor"></span>
+                </h2>
+                
+                <p class="fade-up delay-2">
+                  Building digital experiences with code. Currently studying at Acharya Institute of Technology.
+                </p>
+                
+                <button class="cta-button fade-up delay-3" data-section="projects">
+                  <span>View My Work</span>
+                  <i data-lucide="arrow-down"></i>
+                </button>
+              </div>
+            </div>
+            
+            <!-- Scroll indicator -->
+            <div class="scroll-indicator">
+              <div class="scroll-indicator-dot"></div>
+            </div>
+          </section>
+  
+          <!-- About Section -->
+          <section id="about" class="about">
+            <div class="bg-glow bg-glow-3"></div>
+            <div class="bg-glow bg-glow-4"></div>
+            
+            <div class="container">
+              <h2 class="section-title">About Me</h2>
+              <div class="glow-line"></div>
+              
+              <div class="about-grid">
+                <div class="about-image">
+                  <div class="gradient-border">
+                    <div class="card-glow">
+                      <div class="profile-content">
+                        <div class="profile-avatar">RK</div>
+                        <h3>Rishav Kumar</h3>
+                        <p>Computer Science Student</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="about-content">
+                  <div class="glass-card">
+                    <p>
+                      I'm a Computer Science student at Acharya Institute of Technology with a passion for building innovative digital solutions. I love tackling challenging problems and turning ideas into reality through code.
+                    </p>
+                    <p>
+                      My journey in technology started with curiosity about how things work. Now, I focus on creating efficient, user-friendly applications that solve real-world problems. I'm constantly learning and expanding my skill set to stay at the forefront of technology.
+                    </p>
+                    
+                    <div class="info-grid">
+                      <div class="info-item">
+                        <div class="info-icon">
+                          <i data-lucide="user"></i>
+                        </div>
+                        <div>
+                          <h4>Name</h4>
+                          <p>Rishav Kumar</p>
+                        </div>
+                      </div>
+                      
+                      <div class="info-item">
+                        <div class="info-icon cyan">
+                          <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <div>
+                          <h4>Education</h4>
+                          <p>Computer Science</p>
+                        </div>
+                      </div>
+                      
+                      <div class="info-item">
+                        <div class="info-icon pink">
+                          <i data-lucide="calendar"></i>
+                        </div>
+                        <div>
+                          <h4>College</h4>
+                          <p>Acharya Institute of Technology</p>
+                        </div>
+                      </div>
+                      <a href="Rishav's Resume.pdf" class="resume-button highlight" target="_blank" rel="noopener"> <i data-lucide="file-text"></i>Download Resume</a>
+                      
+                      <div class="info-item">
+                        <div class="info-icon orange">
+                          <i data-lucide="map-pin"></i>
+                        </div>
+                        <div>
+                          <h4>Focus</h4>
+                          <p>Software Development</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+  
+          <!-- Skills Section -->
+          <section id="skills" class="skills">
+            <div class="bg-glow bg-glow-5"></div>
+            <div class="bg-glow bg-glow-6"></div>
+            
+            <div class="container">
+              <h2 class="section-title">Skills & Expertise</h2>
+              <div class="glow-line"></div>
+              
+              <div class="skills-grid">
+                <div class="skill-card purple-glow">
+                  <div class="skill-icon purple-bg">
+                    <i data-lucide="code"></i>
+                  </div>
+                  <div class="skill-content">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                      <span class="skill-tag">Java</span>
+                      <span class="skill-tag">Python</span>
+                      <span class="skill-tag">JavaScript</span>
+                      <span class="skill-tag">HTML</span>
+                      <span class="skill-tag">CSS</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="skill-card pink-glow">
+                  <div class="skill-icon pink-bg">
+                    <i data-lucide="database"></i>
+                  </div>
+                  <div class="skill-content">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                      <span class="skill-tag">MySQL</span>
+                      <span class="skill-tag">DBMS</span>
+                      <span class="skill-tag">SQL</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="skill-card cyan-glow">
+                  <div class="skill-icon cyan-bg">
+                    <i data-lucide="globe"></i>
+                  </div>
+                  <div class="skill-content">
+                    <h3>Web Development</h3>
+                    <div class="skill-tags">
+                      <span class="skill-tag">HTML</span>
+                      <span class="skill-tag">CSS</span>
+                      <span class="skill-tag">JavaScript</span>
+                      <span class="skill-tag">Flask</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="skill-card green-glow">
+                  <div class="skill-icon green-bg">
+                    <i data-lucide="server"></i>
+                  </div>
+                  <div class="skill-content">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                      <span class="skill-tag">Flask</span>
+                      <span class="skill-tag">Java</span>
+                      <span class="skill-tag">Python</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="skill-card orange-glow">
+                  <div class="skill-icon orange-bg">
+                    <i data-lucide="terminal"></i>
+                  </div>
+                  <div class="skill-content">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                      <span class="skill-tag">Git</span>
+                      <span class="skill-tag">VS Code</span>
+                      <span class="skill-tag">Jupyter Notebook</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="skill-card blue-glow">
+                  <div class="skill-icon blue-bg">
+                    <i data-lucide="pen-tool"></i>
+                  </div>
+                  <div class="skill-content">
+                    <h3>Design</h3>
+                    <div class="skill-tags">
+                      <span class="skill-tag">UI/UX Basics</span>
+                      <span class="skill-tag">Wireframing</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="stats-grid">
+                <div class="stat-card">
+                  <h3 class="tech-gradient">4+</h3>
+                  <p>Projects Completed</p>
+                </div>
+                <div class="stat-card">
+                  <h3 class="tech-gradient">6+</h3>
+                  <p>Technologies</p>
+                </div>
+                <div class="stat-card">
+                  <h3 class="tech-gradient">2+</h3>
+                  <p>Years Coding</p>
+                </div>
+                <div class="stat-card">
+                  <h3 class="tech-gradient">∞</h3>
+                  <p>Passion</p>
+                </div>
+              </div>
+            </div>
+          </section>
+  
+          <!-- Projects Section -->
+          <section id="projects" class="projects">
+            <div class="bg-glow bg-glow-7"></div>
+            <div class="bg-glow bg-glow-8"></div>
+            
+            <div class="container">
+              <h2 class="section-title">My Projects</h2>
+              <div class="glow-line"></div>
+              <p class="section-description">
+                Here are some of the projects I've worked on, showcasing my skills and problem-solving abilities.
+              </p>
+              
+              <div class="projects-grid">
+                <div class="project-sidebar">
+                  <div class="glass-card">
+                    <h3>Projects</h3>
+                    <div class="project-tabs">
+                      <div class="project-tab active" data-project="0">Health ChatBot</div>
+                      <div class="project-tab " data-project="1">Todo App</div>
+                      <div class="project-tab " data-project="2">Invoice Processing</div>
+                      <div class="project-tab " data-project="3">Career Predictions</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="project-content-wrapper">
+                  
+                  
+                  <div class="project-content project-content-0 active">
+                    <div class="project-image">
+                      <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?q=80&w=800&auto=format&fit=crop" alt="Health Chat Bot">
+                    </div>
+                    
+                    <h3>Health Chat Bot </h3>
+                    <p> A conversational AI-powered health assistant built using Python and NLP technologies. This chatbot helps users with general health inquiries, symptom checking, and wellness advice. Not a substitute for professional medical diagnosis.</p>
+                    
+                    <div class="project-techs">
+                      <h4>Technologies Used</h4>
+                      <div class="project-tech-tags">
+                        <span class="project-tech-tag">Python </span>
+                        <span class="project-tech-tag">NLP</span>
+                        <span class="project-tech-tag">API</span>
+                      </div>
+                    </div>
+                    
+                    <div class="project-features">
+                      <h4>Key Features</h4>
+                      <ul>
+                        <li><i data-lucide="check-circle"></i> 🔍 Symptom checking and preliminary analysis</li>
+                        <li><i data-lucide="check-circle"></i>💬 Natural language conversation</li>
+                        <li><i data-lucide="check-circle"></i>🧠 Basic health FAQs and recommendations</li>
+                      </ul>
+                    </div>
+                    <div class="project-buttons">
+                      <a class="project-button github-button"
+                      href="https://github.com/Rishabh-afk-beep/HEALTH-CHATBOT" target="_blank" rel="noopener" >
+                        <i data-lucide="github"></i>
+                        <span>View Code</span>   </a>
+
+                      <button class="project-button demo-button"
+                      onclick="toggleVideoDemo('video-demo-0')">
+                        <i data-lucide="external-link"></i>
+                        <span>Live Demo</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="video-demo-0" style="display:none; margin-top: 1em;"><video width="800" controls><source src="Health_Chat_Bot_video.mp4" type="video/mp4">Your browser does not support the video tag.</video></div></div>
+                  
+
+
+
+                  <div class="project-content project-content-1 ">
+                    <div class="project-image">
+                      <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=800&auto=format&fit=crop" alt="Todo App">
+                    </div>
+                    
+                    <h3>Todo App</h3>
+                    <p>A feature-rich todo application with task categorization, priority levels, and deadline notifications. Designed with a clean, intuitive user interface for easy task management.</p>
+                    
+                    <div class="project-techs">
+                      <h4>Technologies Used</h4>
+                      <div class="project-tech-tags">
+                        <span class="project-tech-tag">HTML</span>
+                        <span class="project-tech-tag">CSS</span>
+                        <span class="project-tech-tag">JavaScript</span>
+                        <span class="project-tech-tag">Toggle Button</span>
+                      </div>
+                    </div>
+                    
+                    <div class="project-features">
+                      <h4>Key Features</h4>
+                      <ul>
+                        <li><i data-lucide="check-circle"></i> Task categorization</li>
+                        <li><i data-lucide="check-circle"></i> Priority levels</li>
+                        <li><i data-lucide="check-circle"></i> Toggle Button</li>
+                        <li><i data-lucide="check-circle"></i> Drag and drop interface</li>
+                      </ul>
+                    </div>
+                    
+                    <div class="project-buttons">
+                      <a class="project-button github-button"
+                       href="https://github.com/rishav-026/TODO-APP" target="_blank" rel="noopener">
+                        <i data-lucide="github"></i>
+                        <span>View Code</span>
+                      </a>
+                      <button class="project-button demo-button"
+                      onclick="toggleVideoDemo('video-demo-1')">
+                        <i data-lucide="video"></i>
+                        Live Demo
+                      </button>
+                    </div>
+                    </div>
+                  <div id="video-demo-1" style="display:none; margin-top: 1em;"><video width="800" controls><source src="Health_Chat_Bot_video.mp4" type="video/mp4">Your browser does not support the video tag.</video></div></div>
+                  
+
+
+
+                  <div class="project-content project-content-2">
+
+                    <div class="project-image">
+                      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800&auto=format&fit=crop" alt="Invoice Processing">
+                    </div>
+                    
+                    <h3>Invoice Processing</h3>
+                    <p>The Invoice Processing Tool is a web-based application designed to automate the extraction of information from invoice images. It supports both typed and handwritten invoices through the use of Tesseract OCR (local) and Google Cloud Vision API (cloud). The extracted data includes invoice number, date, vendor details, customer information, item breakdown, and totals.</p>
+                    
+                    <div class="project-techs">
+                      <h4>Technologies Used</h4>
+                      <div class="project-tech-tags">
+                        <span class="project-tech-tag">Flask for Backend</span>
+                        <span class="project-tech-tag">React for Frontend </span>
+                        <span class="project-tech-tag">Tesseract OCR - Local OCR engine</span>
+                        <span class="project-tech-tag">Google Cloud Vision API - Cloud OCR engine </span>
+                        <span class="project-tech-tag">Werkzeug - File upload handling </span>
+                      </div>
+                    </div>
+                    
+                    <div class="project-features">
+                      <h4>Key Features</h4>
+                      <ul>
+                        <li><i data-lucide="check-circle"></i> Text Extraction: Extracts raw text using Tesseract OCR or Google Cloud Vision API</li>
+                        <li><i data-lucide="check-circle"></i> Invoice Parsing</li>
+                        <li><i data-lucide="check-circle"></i> File upload</li>
+                        <li><i data-lucide="check-circle"></i> Error Handling: Falls back to Tesseract OCR if Google Vision fails</li>
+                      </ul>
+                    </div>
+                    <div class="project-buttons">
+                      <a class="project-button github-button"
+                       href="https://github.com/rishav-026/Invoice_Processing" target="_blank" rel="noopener">
+                        <i data-lucide="github"></i>
+                        <span>View Code</span>
+                    </a>
+                      <button class="project-button demo-button"
+                        onclick="toggleVideoDemo('video-demo-2')">
+                        <i data-lucide="external-link"></i>
+                        <span>Live Demo</span>
+                      </button>
+                    </div>
+                    </div>
+                  <div id="video-demo-2" style="display:none; margin-top: 1em;"><video width="800" controls><source src="Invoice_Processing_video.mp4" type="video/mp4">Your browser does not support the video tag.</video></div></div>
+
+
+
+
+
+                    <div class="project-content project-content-3">
+                      <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800&auto=format&fit=crop" alt="Invoice Processing">
+                      </div>
+                      
+                      <h3>Career Predictions</h3>
+                      <p>A full-stack machine learning application that predicts a student's likely future career path based on academic, behavioral, and personal traits.</p>
+                      
+                      <div class="project-techs">
+                        <h4>Technologies Used</h4>
+                        <div class="project-tech-tags">
+                          <span class="project-tech-tag">Python</span>
+                          <span class="project-tech-tag">scikit-learn</span>
+                          <span class="project-tech-tag">Autogluon</span>
+                          <span class="project-tech-tag">Flask</span>
+                        </div>
+                      </div>
+                      <div class="project-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                          <li><i data-lucide="check-circle"></i>Predicts the future</li>
+                          <li><i data-lucide="check-circle"></i> Input Features: Academic Performance (CGPA/Percentage),Tech-Savviness,Daily Water Intake,Number of Siblings,Leadership Experience and many more.</li>
+                          <li><i data-lucide="check-circle"></i> Output: The model predicts the career goal, such as:Engineer , Doctor, Artist,Researcher and many more.</li>
+                        </ul>
+                      </div>
+                      <div class="project-buttons">
+                        <a class="project-button github-button"
+                         href="https://github.com/rishav-026/Career-Predictor-Project" target="_blank" rel="noopener">
+                          <i data-lucide="github"></i>
+                          <span>View Code</span>
+                      </a>
+                        <button class="project-button demo-button"
+                          onclick="toggleVideoDemo('video-demo-3')">
+                          <i data-lucide="external-link"></i>
+                          <span>Live Demo</span>
+                        </button>
+                      </div>
+                    </div>
+                      <div id="video-demo-3" style="display:none; margin-top: 1em;"><video width="800" controls><source src="Career_Prediction_video.mp4" type="video/mp4">Your browser does not support the video tag.</video></div></div>
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+  
+          <!-- Contact Section -->
+          <section id="contact" class="contact">
+            <div class="bg-glow bg-glow-9"></div>
+            <div class="bg-glow bg-glow-10"></div>
+            
+            <div class="container">
+              <h2 class="section-title">Get In Touch</h2>
+              <div class="glow-line"></div>
+              <p class="section-description">
+                Feel free to reach out if you have any questions or just want to connect. I'm always open to discussing new projects and opportunities.
+              </p>
+              
+              <div class="contact-grid">
+                <div class="contact-info">
+                  <div class="glass-card">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-info-items">
+                      <div class="contact-info-item">
+                        <div class="contact-icon purple-bg">
+                          <i data-lucide="mail"></i>
+                        </div>
+                        <div>
+                          <h4>Email</h4>
+                          <p>rishavkumar7034@gmail.com</p>
+                        </div>
+                      </div>
+                      
+                      <div class="contact-info-item">
+                        <div class="contact-icon cyan-bg">
+                          <i data-lucide="phone"></i>
+                        </div>
+                        <div>
+                          <h4>Phone</h4>
+                          <p>+91 6204627879</p>
+                        </div>
+                      </div>
+                      
+                      <div class="contact-info-item">
+                        <div class="contact-icon pink-bg">
+                          <i data-lucide="map-pin"></i>
+                        </div>
+                        <div>
+                          <h4>Location</h4>
+                          <p>Bangalore, India</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="social-connect">
+                      <h3>Connect With Me</h3>
+                      <div class="social-links">
+                        <a href="https://github.com/rishav-026" class="footer-social-link" target="_blank" rel="noopener"><i data-lucide="github"></i></a>
+                         <a href="https://www.linkedin.com/in/rishavkumar12/" class="footer-social-link" target="_blank" rel="noopener"><i data-lucide="Linkedin"></i></a>
+                        <a href="mailto:rishavkumar7034@gmail.com" class="footer-social-link" aria-label="Send Email" title="Email"><i data-lucide="mail"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="contact-form-container">
+                  <div class="glass-card">
+                    <h3>Send Me a Message</h3>
+                    
+                    <div id="success-message" class="success-message">
+                      <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                      </svg>
+                      <h4>Message Sent!</h4>
+                      <p>Thanks for reaching out. I'll get back to you soon.</p>
+                    </div>
+                    
+                    <form action="https://formspree.io/f/manbbznp" method="POST" id="contact-form">
+                      <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="_replyto" required>
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                      </div>
+                      
+                      <button type="submit" class="submit-button">
+                        <i data-lucide="send"></i>
+                        <span>Send Message</span>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+  
+        <!-- Footer -->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-grid">
+              <div class="footer-brand">
+                <h3 class="footer-logo">
+                  <span class="text-tech-purple">Rishav</span> Kumar
+                </h3>
+                <p>Building digital experiences with code</p>
+              </div>
+              
+              <div class="footer-social">
+                 <a href="https://github.com/rishav-026" class="footer-social-link" target="_blank" rel="noopener"><i data-lucide="github"></i></a>
+                 <a href="https://www.linkedin.com/in/rishavkumar12/" class="footer-social-link" target="_blank" rel="noopener"><i data-lucide="Linkedin"></i></a>
+                 <a href="mailto:rishavkumar7034@gmail.com" class="footer-social-link" aria-label="Send Email" title="Email"> <i data-lucide="mail"></i></a>
+              </div>
+              
+              <button class="back-to-top" aria-label="Back to top">
+                <i data-lucide="arrow-up"></i>
+              </button>
+            </div>
+            
+            <div class="footer-copyright">
+              <p>&copy; <span id="current-year"></span> Rishav Kumar. All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      
+      <!-- Scripts -->
+       <script src="https://unpkg.com/lucide@latest"></script>
+      <script src="script.js"></script>
+      <!-- Three.js core -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+<!-- OrbitControls for mouse rotation -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.153.0/examples/js/controls/OrbitControls.min.js"></script>
+
+
+      <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    </body>
+  </html>
+  
+
+
+
+
+
+  
